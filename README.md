@@ -14,3 +14,7 @@ This sample is based on the [Jupyter Github Codespaces sample](https://github.co
 1. Although .NET 7 is already installed in the base container, the tooling did not work out of the box with this version. Explicitly installing .NET using `dotnet-install.sh` did the trick.
 2. The original sample only runs a single command in the `updateContentCommand` hook in `./devcontainer/devcontainer.json`. Since I needed to run a few commands, I moved those into a separate script called `update-content.sh`.
 3. Both scripts need execute privileges. These are set up correctly in this repository. If you download the code instead of cloning the repository you may need to set them yourselves.
+
+
+## License
+The sample uses a [FIFA world cup match result data set hosted on Kaggle](https://www.kaggle.com/datasets/piterfm/fifa-football-world-cup).
