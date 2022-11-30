@@ -1,0 +1,23 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "hostRequirements": {
+    "cpus": 2         // No need for 4 CPUs as requirement.
+  },
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "./update-content.sh",
+  "postCreateCommand": "",
+  "customizations": {
+    "codespaces": {
+      "openFiles": [ "notebooks/test-csharp.ipynb" ]
+    },
+    "vscode": {
+      "extensions": [
+        "ms-toolsai.jupyter",
+        "ms-python.python",
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.dotnet-interactive-vscode",
+        "ms-vscode-remote.remote-containers"
+      ]
+    }
+  }
+}
