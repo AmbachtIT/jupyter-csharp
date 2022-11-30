@@ -8,7 +8,7 @@
   "postCreateCommand": "",
   "customizations": {
     "codespaces": {
-      "openFiles": [ "notebooks/test-csharp.ipynb" ]
+      "openFiles": [ ]
     },
     "vscode": {
       "extensions": [
